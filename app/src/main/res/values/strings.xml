@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">Tasks</string>
+    <string name="delete">Excluir</string>
+    <string name="edit_task">Editar tarefa</string>
+    <string name="edit_task_title">Novo título</string>
+    <string name="save">Salvar</string>
+    <string name="empty_title_msg">O título não pode ficar vazio</string>
 </resources>
