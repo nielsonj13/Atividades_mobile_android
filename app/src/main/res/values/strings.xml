@@ -5,4 +5,6 @@
     <string name="edit_task_title">Novo título</string>
     <string name="save">Salvar</string>
     <string name="empty_title_msg">O título não pode ficar vazio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
