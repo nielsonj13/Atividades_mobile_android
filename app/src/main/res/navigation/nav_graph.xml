@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.myapplication.HomeFragment"
+        android:label="Hoje"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_habitDetailFragment"
+            app:destination="@id/habitDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="com.example.myapplication.StatsFragment"
+        android:label="Estatísticas"
+        tools:layout="@layout/fragment_stats" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.myapplication.SettingsFragment"
+        android:label="Ajustes"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/habitDetailFragment"
+        android:name="com.example.myapplication.HabitDetailFragment"
+        android:label="Detalhes do Hábito"
+        tools:layout="@layout/fragment_habit_detail">
+        <argument
+            android:name="habitId"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
