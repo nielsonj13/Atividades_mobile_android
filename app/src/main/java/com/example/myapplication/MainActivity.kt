@@ -19,15 +19,14 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // 1. Encontre o NavController
+
         val navHostFragment = supportFragmentManager
             .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         navController = navHostFragment.navController
 
-        // 2. Encontre a BottomNavigationView
+
         val bottomNav = binding.bottomNavigation
 
-        // 3. Conecte o NavController à BottomNavigationView usando NavigationUI
         NavigationUI.setupWithNavController(bottomNav, navController)
     }
 }
