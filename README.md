@@ -11,3 +11,4 @@ O objetivo é armazenar as atividades da materia de Mobile Android .
 - **`Atividade-2`**: Esta branch contém todo o código da Atividade de MVVM (Model-View-ViewModel) com Jetpack Compose.
 - **`Atividade-3`**: Esta branch contém todo o código da Atividade de aplicação de Lista de Tarefas (To-Do List).
 - **`Atividade-4`**: Esta branch contém todo o código da Atividade da tela de habitos
+- **`Atividade-5`**: Esta branch contém todo o código da Atividade da tela de habitos que utiliza coroutines
